@@ -1,0 +1,543 @@
+
+
+<head>
+    <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+
+
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>太仆汽车官网</title>
+<link href="https://tp-www.oss-cn-shanghai.aliyuncs.com/tp_www/icon.ico" rel="shortcut icon">
+<!-- <link rel="stylesheet" href="/css/reset.css"> -->
+<!-- <link rel="stylesheet" href="/css/common.css"> -->
+<script>
+    document.write('<link rel="stylesheet" href="css/reset.css?time='+new Date().getTime()+'">');
+    document.write('<link rel="stylesheet" href="css/common.css?time='+new Date().getTime()+'">');
+</script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/flexible.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?cd020dc91153d50aaec3da8d76e3300d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7a3889ea843bbdb546d8fd33a1175908";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    <!-- jQuery轮播图组件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    
+    <script>
+        document.write('<link rel="stylesheet" href="css/index.css?time='+new Date().getTime()+'">');
+    </script>
+</head>
+<body>
+
+<div id="topPc" class="topNav clearfix">
+	<div class="fl topLogo">
+		<img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562054346706_logov3.png" alt="">
+	</div>
+
+	<a href="/about" class="block fr nav-each nav-about"><span>关于我们</span></a>
+	<a href="/join" class="block fr nav-each nav-join"><span>合作加盟</span></a>
+	<a href="/techSupport" class="block fr nav-each nav-techSupport"><span>解决方案</span></a>
+	<a href="/product" class="block fr nav-each nav-product"><span>产品中心</span></a>
+	<a href="/index" class="block fr nav-each nav-index"><span>首页</span></a>
+</div>
+
+<!-- 移动端 -->
+<div id="topMobile" class="topNav clearfix">
+	<div class="fl topLogo">
+		<img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562054346706_logov3.png" alt="">
+	</div>
+	<div id="btn" class="btn">
+		<img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562054615458_menu.png">
+	</div>
+
+	<!--蒙层-->
+	<div class="layer">
+		<div class="menu">
+			<div class="wrap">
+				<div class="cancel">
+					<img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562055048686_icon_cancel.png">
+				</div>
+			</div>
+			<div class="item nav-each nav-index"><a href="/index"><span>首页</span></a></div>
+			<div class="item nav-each nav-product"><a href="/product"><span>产品中心</span></a></div>
+			<div class="item nav-each nav-techSupport"><a href="/techSupport"><span>解决方案</span></a></div>
+			<div class="item nav-each nav-join"><a href="/join"><span>合作加盟</span></a></div>
+			<div class="item nav-each nav-about"><a href="/about"><span>关于我们</span></a></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('#btn').click(function() {
+		$('.layer').show();
+	});
+	$('.cancel').click(function() {
+		$('.layer').hide();
+	})
+
+</script>    <div id="app">
+        <div id="pc">
+            <div class="bannerBox">
+                <!-- <div class="videoBox">
+                    <video controls width="100%" height="">
+                        <source src="http://tp-app.img-cn-hangzhou.aliyuncs.com/ios/intro.mov" type="video/mp4">
+                        <param name="movie" value="flowplayer-3.2.16.swf" />
+                        <param name="flashvars" value='config={"clip":"media/beach.mp4"}' />
+                        <p>您的浏览器不支持此视频</p>
+                        </object>
+                    </video>
+                </div> -->
+                <img src="../static/img/banner1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="item carWash">
+                    <div class="titleBox">
+                        <p class="title">智能洗车房</p>
+                    </div>
+                    <div class="flex">
+                        <div class="imgBox">
+                            <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/carWash1.png">
+                        </div>
+                        <div class="info">
+                            <p class="one">太仆智能洗车房</p>
+                            <P class="two">智能·环保·高效</P>
+                            <div class="flexBox">
+                                <div class="flex-item">
+                                    <div class="img">
+                                        <img src="../static/img/carWash_time.png">
+                                    </div>
+                                    <div class="keyword">
+                                        <p>6分钟</p>
+                                        <p>超速清洗</p>
+                                    </div>
+                                </div>
+                                <div class="flex-item">
+                                    <div class="img">
+                                        <img src="../static/img/carWash_money.png">
+                                    </div>
+                                    <div class="keyword">
+                                        <p>15元/次</p>
+                                        <p>超值优惠</p>
+                                    </div>
+                                </div>
+                                <div class="flex-item">
+                                    <div class="img">
+                                        <img src="../static/img/carWash_24.png">
+                                    </div>
+                                    <div class="keyword">
+                                        <p>24小时营业</p>
+                                        <p>无人值守</p>
+                                    </div>
+                                </div>
+                                <div class="flex-item">
+                                    <div class="img">
+                                        <img src="../static/img/carWash_car.png">
+                                    </div>
+                                    <div class="keyword">
+                                        <p>整车风干</p>
+                                        <p>整洁干净</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item factory">
+                    <div class="titleBox">
+                        <p class="title">智慧工厂</p>
+                        <p class="desc">我们致力扎根于行业深入，场景进行产品设计和创新</p>
+                        <p class="desc">为汽车后市场行业用户构建一站式的解决方案，为客户网络创造新价值</p>
+                    </div>
+                    <div class="flexBox">
+                        <div class="flex-item one">
+                            <p class="title">智能系统</p>
+                            <p>扫码支扫，一键启动，无需等待</p>
+                            <p>无人值守，智能系统，远程运维</p>
+                            <p>语音交互，安全防护，物联监控</p>
+                        </div>
+                        <div class="flex-item two">
+                            <p class="title">高效清洁</p>
+                            <p>单次洗车用时4-8分钟</p>
+                            <p>24小时全天营业</p>
+                            <p>一站式解决方案，无缝对接各个产品控</p>
+                        </div>
+                        <div class="flex-item three">
+                            <p class="title">优质服务</p>
+                            <p>专业维保团队</p>
+                            <p>免费上门质保，定期检修</p>
+                            <p> 24/7售后电话</p>
+                        </div>
+                        <div class="flex-item four">
+                            <p class="title">环境环保</p>
+                            <p>洗车清洁剂获得相关环保认证</p>
+                            <p>封闭水循环系统节水90%以上</p>
+                            <p>平均耗电0.8度/辆</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="item program">
+                    <div class="titleBox">
+                        <p class="title">智能洗车解决方案</p>
+                        <p class="desc">经过市场的细分以及我们产品的迭代与更新，太仆汽车拥有3个不同系列产品</p>
+                        <p class="desc">以针对不同需求的客户。我们力求每一位潜在客户的需求都可以被圆满的解决</p>
+                    </div>
+                    <div class="flexBox">
+                        <div class="flex-item">
+                            <div class="imgBox">
+                                <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine1.jpg" alt="801系列">
+                            </div>
+                            <p class="title">801系列</p>
+                            <p>太仆TP&FM 801 系列产品专为4S店设计，平均洗车时间在90s-120s，无风干。价格优惠，洗车能力突出，效率高。</p>
+                        </div>
+                        <div class="flex-item">
+                            <div class="imgBox">
+                                <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine2.jpg" alt="612系列">
+                            </div>
+                            <p class="title">612系列</p>
+                            <p>
+                                太仆TP&FM 612系列是我司的主打产品。其分为室内以及室外两个版本。适合各类汽车个体门店，综合体地下停车场，商业园区停车场以及室外加油站等场景。其机型配有风干，整车洗净花费时间在6分钟左右。设备稳定高效，并配有水循环。
+                            </p>
+                        </div>
+                        <div class="flex-item">
+                            <div class="imgBox">
+                                <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine3.jpg" alt="810系列">
+                            </div>
+                            <p class="title">810系列</p>
+                            <p>
+                                太仆TP&FM 810系列是我司的高端产品。其专为室外场景打造，防护能力强，能有效防止雨水以及各类洗涤剂所带来的损伤。适用于大型企业园区以及加油站场景。洗车时间为4分钟（含风干）。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item news">
+                    <div class="titleBox">
+                        <p class="title">新闻资讯</p>
+                    </div>
+                    <div class="flexBox">
+
+                        <div class="summary">
+                            <div class="imgBox">
+                                <img :src="newsList[newsList.length-1].coverImg" alt="">
+                            </div>
+                            <a :href=" '/newDetail?id=' + newsList[newsList.length-1].id">
+                                <div class="infoBox">
+                                    <div class="title">{{newsList[newsList.length-1].title}}</div>
+                                    <div class="detail">
+                                        {{newsList[newsList.length-1].digest + '...'}}
+                                    </div>
+                                    <div class="time">{{newsList[newsList.length-1].time}}</div>
+                                </div>
+                            </a> 
+                        </div>
+
+                        <div class="preNews">
+                            <div class="wrap" v-for="(item,index) in newsList" v-if="index<=2">
+                                <a class="new-item" :href=" '/newDetail?id=' + item.id">
+                                    <div class="newTime">
+                                        <p>{{item.time.slice(5)}}</p>
+                                        <p>{{item.time.slice(0,4)}}</p>
+                                    </div>
+                                    <div class="details">
+                                        <p>{{item.title}}</p>
+                                        <p class="abstract">{{item.digest.slice(0,26) + '...'}}</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="/news"><span>查看更多新闻</span></a>
+                    </div>
+                </div>
+
+                <div class="item cooperation">
+                    <div class="titleBox">
+                        <p class="title">战略合作伙伴</p>
+                        <P class="desc">来自新时代的共鸣，无数企业用户的选择</P>
+                    </div>
+                    <div class="flexBox">
+                        <div class="flex">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop1.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop2.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop3.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop4.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop5.png" alt="">
+                        </div>
+                        <div class="flex">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop6.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop7.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop8.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop9.png" alt="">
+                            <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop10.png" alt="">
+                        </div>
+                        <div class="flex">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop11.png" alt="" class="bigImg">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop12.png" alt="" class="bigImg">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop13.png" alt="" class="bigImg">
+                            <div class="smallImgBox">
+                                <img class="smallImg smallTop" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop14.png" alt="">
+                                <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop16.png" alt="">
+                            </div>
+                            <div class="smallImgBox">
+                                <img class="smallImg smallTop" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop15.png" alt="">
+                                <img class="smallImg" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/coop17.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="mobile">
+            <div class="bannerBox">
+                <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_banner1.jpg" alt="">
+            </div>
+            <div class="content flex">
+                <div class="item carWash">
+                    <div class="title">智能洗车房</div>
+                    <div class="imgBox">
+                        <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_wash.png">
+                    </div>
+                    <div class="subTitle">
+                        <p>太仆智能环保洗车房</p>
+                        <p>智能·环保·高效</p>
+                    </div>
+                    <div class="detailBox">
+                        <div class="detail-item one">
+                            <div class="icon">
+                                <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118213064_mobile_time.png">
+                            </div>
+                            <div class="info">
+                                <p>6分钟</p>
+                                <p>超速清洗</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="icon">
+                                <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118279402_mobile_price.png">
+                            </div>
+                            <div class="info">
+                                <p>15/次</p>
+                                <p>超值优惠</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="icon">
+                                <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118320795_mobile_24.png">
+                            </div>
+                            <div class="info">
+                                <p>24小时营业</p>
+                                <p>无人值守</p>
+                            </div>
+                        </div>
+                        <div class="detail-item four">
+                            <div class="icon">
+                                <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118291463_mobile_dry.png">
+                            </div>
+                            <div class="info">
+                                <p>整车风干</p>
+                                <p>整洁干净</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item factory">
+                    <div class="titleBox">
+                        <div class="title">智慧工厂</div>
+                        <div class="desc">
+                            我们致力扎根于行业深入，场景进行产品设计和创新,为汽车后市场行业用户构建一站式的解决方案，为客户网络创造新价值
+                        </div>
+                    </div>
+                    <div class="detailBox">
+                        <div class="detail-item one">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118225843_mobile_sys.png" alt="">
+                            <div class="subTitle">智能系统</div>
+                            <div class="detail">
+                                <p>扫码支扫 一键启动 无需等待</p>
+                                <p>无人值守 智能系统 远程运维</p>
+                                <p>语音交互 安全防护 物联监控</p>
+                            </div>
+                        </div>
+                        <div class="detail-item two">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118291465_mobile_clean.png" alt="">
+                            <div class="subTitle">高效清洁</div>
+                            <div class="detail">
+                                <p>单次洗车用时4-8分钟</p>
+                                <p>24小时营业</p>
+                                <p>一站式解决方案</p>
+                            </div>
+                        </div>
+                        <div class="detail-item three">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118279371_mobile_ser.png" alt="">
+                            <div class="subTitle">优质服务</div>
+                            <div class="detail">
+                                <p>专业维保团队</p>
+                                <p>免费上门质保，定期检修</p>
+                                <p>24/7售后电话</p>
+                            </div>
+                        </div>
+                        <div class="detail-item four">
+                            <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562118291463_mobile_env.png" alt="">
+                            <div class="subTitle">环境环保</div>
+                            <div class="detail">
+                                <p>洗车清洁剂获得相关环保认证</p>
+                                <p>封闭水循环系统节水90%以上</p>
+                                <p>平均耗电0.8度/辆</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item program">
+                    <div class="titleBox">
+                        <div class="title">智能洗车解决方案</div>
+                        <p>经过市场的细分以及我们产品的迭代与更新</p>
+                        <p>太仆汽车拥有3个不同系列产品，以针对不同需求的客户</p>
+                        <p>我们力求每一位潜在客户的需求都可以被圆满的解决</p>
+                    </div>
+                    <div class="detailBox">
+                        <div class="detail-item">
+                            <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine1.jpg">
+                            <div class="subTitle">801系列</div>
+                            <div class="desc">
+                                太仆TP&FM801系列产品专为4S店以及XXX设计，平均洗车时间在90s-120s，无风干。价格优惠，洗车能力突出，效率高。
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine2.jpg">
+                            <div class="subTitle">612系列</div>
+                            <div class="desc">
+                                太仆TP&FM612系列是我司的主打产品。其分为室内以及室外两个版本。适合各类汽车个体门店，综合体地下停车场，商业园区停车场以及室外加油站等场景。其机型配有风干，整车洗净花费时间在6分钟左右。设备稳定高效，并配有水循环。
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <img src="https://tp-app.oss-cn-hangzhou.aliyuncs.com/ios/mobile_machine3.jpg">
+                            <div class="subTitle">810系列</div>
+                            <div class="desc">
+                                太仆TP&FM810系列是我司的高端产品。其专为室外场景打造，防护能力强，能有效防止雨水以及各类洗涤剂所带来的损伤。适用于大型企业园区以及加油站场景。洗车时间为4分钟（含风干）。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item news">
+                    <div class="titleBox">
+                        <div class="title">新闻资讯</div>
+                    </div>
+                    <div class="detailBox">
+                        <div class="wrap" v-for="(item,index) in newsList" v-if="index<=1">
+                            <a class="detail-item" :href=" '/newDetail?id=' + item.id">
+                                <div class="imgBox">
+                                    <img :src="item.coverImg">
+                                </div>
+                                <div class="infoBox">
+                                    <div class="newTitle">{{item.title}}</div>
+                                    <div class="time">{{item.time}}</div>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>
+                    <a href="news">
+                        <div class="btn">查看更多新闻</div>
+                    </a>
+                </div>
+
+                <div class="item cooperation">
+                    <div class="titleBox">
+                        <div class="title">战略合作伙伴</div>
+                        <div class="desc">来自新时代的共鸣，无数企业用户的选择 </div>
+                    </div>
+                    <div class="detailBox">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140762284_mobile_coop1.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140762299_mobile_coop2.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140762299_mobile_coop3.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140762281_mobile_coop4.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140762303_mobile_coop5.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140771108_mobile_coop6.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140771121_mobile_coop7.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140771125_mobile_coop8.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140771132_mobile_coop9.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140771140_mobile_coop10.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140780239_mobile_coop11.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140780254_mobile_coop12.png" alt="">
+                        <img class="spe" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140780296_mobile_coop13.png" alt="">
+                        <img class="spe" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140780257_mobile_coop14.png" alt="">
+                        <img class="spe" src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140780255_mobile_coop15.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140793081_mobile_coop16.png" alt="">
+                        <img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/1562140793084_mobile_coop17.png" alt="">
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+    </div>
+<div id="footerPc" class="footer">
+    <div class="flex contact">
+        <div class="weiboCode">
+            <p class="name">新浪微博</p>
+    		<img src="http://tp-app.img-cn-hangzhou.aliyuncs.com//ios/weiboCode.png" alt="">
+    	</div>
+    	<div class="wxCode">
+            <p class="name">微信公众号</p>
+    		<img src="http://tp-www.oss-cn-shanghai.aliyuncs.com/tp_www/weixinCode.jpg" alt="">
+    	</div>
+    	<div class="line"></div>
+    	<div class="attach">
+    		<p class="name">联系我们</p>
+    		<p class="address tit">公司地址：杭州市余杭区闲林镇裕丰路1号</p>
+    		<p class="phone">联系电话：0571-56397298</p>
+    		<p class="email">电子邮箱：tpqc@taipuauto.cn</p>
+    	</div>
+    </div>
+    <p class="line"></p>
+    <p class="copyright">©️2016-2019Aliyun.com 版权所有 浙ICP备16017440号-1</p>
+</div>
+
+<div id="footerMobile" class="footer">
+    <p class="name">联系我们</p>
+    <p class="address tit">公司地址：杭州市余杭区闲林镇裕丰路1号</p>
+    <p class="phone">联系电话：0571-56397298</p>
+    <p class="email">电子邮箱：tpqc@taipuauto.cn</p>
+    
+    <p class="line"></p>
+    <p class="copyright">©️2016-2019Aliyun.com 版权所有 浙ICP备16017440号-1</p>
+</div>    <script type="text/javascript" src="/js/ua.js"></script>
+    <script type="text/javascript" src="https://tp-www.oss-cn-shanghai.aliyuncs.com/tp_www/news.js"></script>
+    <script>
+        $('.nav-each').removeClass('active');
+        $('.nav-index').addClass('active');
+    </script>
+</body>
